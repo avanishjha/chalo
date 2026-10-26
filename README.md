@@ -2,7 +2,7 @@
 
 An interactive trip album for Indian Dream Travel: Rajasthan and the Himalaya told as comic pages, with 300-year-old Rajput paintings cut into moving paper puppets.
 
-**Live:** https://avanishjha.github.io/chalo/
+**Live:** https://avanishjha.dev/chalo/
 
 ![The Chalo! hero: a Mewar painting of a prince on a blue horse inside a cusped arch, with the Chalo! wordmark](preview.jpg)
 
