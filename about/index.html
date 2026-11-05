@@ -11,11 +11,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="../assets/chalo-about-DnZsjSRT.js"></script>
+  <script type="module" crossorigin src="../assets/chalo-about-DSxTrayL.js"></script>
   <link rel="modulepreload" crossorigin href="../assets/runtime-BU-IUSzH.js">
-  <link rel="modulepreload" crossorigin href="../assets/chrome-r43558y8.js">
+  <link rel="modulepreload" crossorigin href="../assets/chrome-CybtUeBM.js">
   <link rel="stylesheet" crossorigin href="../assets/runtime-DfqYQpwl.css">
-  <link rel="stylesheet" crossorigin href="../assets/chrome-BYINv3ny.css">
+  <link rel="stylesheet" crossorigin href="../assets/chrome-B6pCt8s0.css">
   <link rel="stylesheet" crossorigin href="../assets/chalo-about-CZ4rDdO0.css">
 </head>
 <body class="about">
@@ -28,7 +28,7 @@
     <a class="tl-link cur" href="./" aria-current="page">about</a>
   </nav>
   <a class="logo" href="../" data-page aria-label="Chalo! by Indian Dream Travel"><span style="--i:0">C</span><span style="--i:1">h</span><span style="--i:2">a</span><span style="--i:3">l</span><span style="--i:4">o</span><span style="--i:5">!</span></a>
-  <div class="bar-r"><a class="album-pill" href="../#ticket" data-page aria-label="Your album"><span>album</span><b data-album-count>0</b></a><a class="btn" data-wa href="https://wa.me/" target="_blank" rel="noopener">Plan my trip on WhatsApp</a><a class="alt" data-mail href="mailto:">or email us</a></div>
+  <div class="bar-r"><button type="button" class="album-pill" data-cart-open aria-haspopup="dialog" aria-expanded="false" aria-label="Open your album"><span>album</span><b data-album-count>0</b></button><a class="btn" data-wa href="https://wa.me/" target="_blank" rel="noopener">Plan my trip on WhatsApp</a><a class="alt" data-mail href="mailto:">or email us</a></div>
 </header>
 <main id="main">
 
@@ -96,6 +96,21 @@
   <p class="legal">Great Tours for Great Memories. Since 2009. Paintings from the Cleveland Museum of Art, CC0; photos credited in full under Picture credits. A design prototype: details in brackets are placeholders.</p>
 </footer>
 <div class="dock"><a class="alt" data-mail href="mailto:">or email us</a><a class="btn" data-wa href="https://wa.me/" target="_blank" rel="noopener">Plan my trip on WhatsApp</a></div>
+<div class="cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="cart-h" hidden>
+  <div class="cart-scrim" data-cart-close></div>
+  <div class="cart-panel" data-lenis-prevent>
+    <div class="cart-head"><h2 id="cart-h">Your album</h2><button type="button" class="nav cart-x" data-cart-close aria-label="Close your album">×</button></div>
+    <div class="cart-empty"><p class="bub">Nothing in here yet. Pick a trip and its stamp lands here.</p></div>
+    <ul class="cart-items"></ul>
+    <div class="cart-more"><h3>Add more</h3><div class="cart-chips"></div></div>
+    <div class="cart-foot">
+      <p>Price: a surprise, until you ask. Nothing is booked and nothing is paid here. Next come a few quick questions, then your message.</p>
+      <a class="btn cart-go" href="../#ticket" data-page data-cart-go>Proceed</a>
+      <a class="alt cart-browse" href="../#trips" data-page data-cart-go>See the trips</a>
+    </div>
+  </div>
+</div>
+<script type="application/json" id="trips-data">[{"add":"Jaisalmer and the Thar","title":"The Golden Fort","img":"art/2018.168-800.webp","pos":"50% 70%","ch":"ch1"},{"add":"Jodhpur and Udaipur","title":"Blue City, Lake City","img":"art/2018.182-800.webp","pos":"50% 40%","ch":"ch2"},{"add":"Jaipur and Amber","title":"The Pink City","img":"art/1971.83-800.webp","pos":"50% 40%","ch":"ch3"},{"add":"Hampta Pass trek","title":"Into the Hills","img":"art/1973.104-800.webp","pos":"50% 40%","ch":"ch4"},{"add":"Ladakh","title":"The Other Desert","img":"camel_nubra-960.webp","pos":"50% 40%","ch":"ch5"},{"add":"Expeditions and summit climbs","title":"The Big Climbs","img":"summit-960.webp","pos":"60% 40%","ch":"ch6"}]</script>
 <div class="curtain" aria-hidden="true"><svg viewBox="0 0 100 12" preserveAspectRatio="none" class="cw t"><path d="M0 12V6Q12.5 0 25 6T50 6T75 6T100 6V12Z"/></svg><span class="cw-mark">Chalo!</span><svg viewBox="0 0 100 12" preserveAspectRatio="none" class="cw b"><path d="M0 0H100V6Q87.5 12 75 6T50 6T25 6T0 6Z"/></svg></div>
 </body>
 </html>
